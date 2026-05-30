@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment | Uncut_Lesson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="tracking-config.js" defer></script>
+  <script src="site-tracking.js" defer></script>
+  <script src="mobile-menu.js" defer></script>
+  <script src="page-animations.js" defer></script>
+  <script src="ad-popup.js" defer></script>
+  <script src="payment.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/Logo.jpeg" alt="Uncut Lesson logo">
+        <span>Uncut_Lesson</span>
+      </a>
+      <nav class="nav-actions" aria-label="Primary">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="courses.html" class="nav-button">Courses</a>
+        <a href="about.html" class="nav-button">About Us</a>
+        <a href="support.html" class="nav-button">Support</a>
+        <a href="how-to-purchase.html" class="nav-button">How To Purchase</a>
+      </nav>
+      <div class="social-strip" aria-label="Social media">
+        <div class="social-links">
+          <a class="social-link" href="https://www.facebook.com/uncutlesson" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="assets/Facebook.jpg" alt="Facebook">
+          </a>
+          <a class="social-link" href="https://www.instagram.com/uncut_lesson?igsh=anFiYTNqZTltdnk5" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/Instagram.jpg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <section class="student-image-mini" aria-label="Student image">
+      <!-- CHANGE STUDENT IMAGE HERE: replace only the src value below with your image path. -->
+      <img src="assets/Student-Courses.jpg" alt="Student image">
+    </section>
+    <main class="payment-page">
+      <section class="payment-grid">
+        <article class="payment-card">
+          <h2>Scan And Pay</h2>
+          <p class="support-text">Use this QR code to complete your payment for the selected course or offer.</p>
+          <div class="qr-card">
+            <img src="assets/payment-qr.jpeg" alt="QR code for payment">
+          </div>
+          <a class="download-qr-button" href="assets/payment-qr.jpeg" download="Uncut-Lesson-payment-qr.jpeg">Download QR Code</a>
+          <p class="payment-line"><strong>UPI ID</strong></p>
+          <div class="upi-copy-row">
+            <p class="support-text" data-upi-id>alokmistri69-2@oksbi</p>
+            <button class="copy-upi-button" type="button" data-copy-upi>Copy UPI ID</button>
+          </div>
+        </article>
+
+        <article class="payment-card payment-card-strong">
+          <h2>After Payment</h2>
+          <p class="payment-line"><strong>Selected Name</strong></p>
+          <p class="support-text" data-course-name>Selected Course</p>
+          <p class="payment-line"><strong>Selected Price</strong></p>
+          <p class="support-text" data-course-price>Rs 0</p>
+          <a class="whatsapp-pay-button" data-payment-whatsapp href="https://wa.me/917439034248" target="_blank" rel="noopener noreferrer">
+            <img src="assets/Whatsapp.jpg" alt="WhatsApp">
+            <span>Share Payment Screenshot</span>
+          </a>
+          <p class="payment-note">Share your payment screenshot and pls don't worry we reach soon to you.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="footer-brand" href="index.html">Uncut_Lesson</a>
+        <p>Practical online learning for computer, accounting, and business software skills.</p>
+      </div>
+      <div class="footer-links">
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About Us</a>
+        <a href="support.html">Support</a>
+        <a href="https://wa.me/917439034248" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

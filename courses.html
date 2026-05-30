@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses | Uncut_Lesson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="tracking-config.js" defer></script>
+  <script src="site-tracking.js" defer></script>
+  <script src="mobile-menu.js" defer></script>
+  <script src="page-animations.js" defer></script>
+  <script src="ad-popup.js" defer></script>
+  <script src="payment.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/Logo.jpeg" alt="Uncut Lesson logo">
+        <span>Uncut_Lesson</span>
+      </a>
+      <nav class="nav-actions" aria-label="Primary">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="courses.html" class="nav-button nav-button-active">Courses</a>
+        <a href="about.html" class="nav-button">About Us</a>
+        <a href="support.html" class="nav-button">Support</a>
+        <a href="how-to-purchase.html" class="nav-button">How To Purchase</a>
+      </nav>
+      <div class="social-strip" aria-label="Social media">
+        <div class="social-links">
+          <a class="social-link" href="https://www.facebook.com/uncutlesson" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="assets/Facebook.jpg" alt="Facebook">
+          </a>
+          <a class="social-link" href="https://www.instagram.com/uncut_lesson?igsh=anFiYTNqZTltdnk5" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/Instagram.jpg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <section class="student-image-mini" aria-label="Student image">
+      <!-- CHANGE STUDENT IMAGE HERE: replace only the src value below with your image path. -->
+      <img src="assets/Student-Courses.jpg" alt="Student image">
+    </section>
+    <main class="courses-page">
+      <section class="courses-hero">
+        <div class="courses-copy">
+          <p class="eyebrow">Course Catalog</p>
+          <h1>Choose The Right Course And Open The Topics Instantly</h1>
+          <p class="hero-text">
+            Browse our popular computer and accounting courses below. Each course includes a details button so students can quickly see the main learning topics.
+          </p>
+        </div>
+
+        <div class="courses-visual">
+          <img src="assets/Offer.jpg" alt="Courses and study illustration">
+        </div>
+      </section>
+
+      <section class="course-list">
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Basic.jpg" alt="Basic course logo">
+              <div>
+                <p class="course-label">Course 1</p>
+                <h3>Basic Course</h3>
+                <p class="course-subtitle">MS-Word, Paint</p>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=Basic%20Course&price=Rs%20499">Rs 499</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-basic.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Advance Excel.jpg" alt="Advanced Excel logo">
+              <div>
+                <p class="course-label">Course 2</p>
+                <h3>Advanced Excel</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=Advanced%20Excel%20%2B%20MS-Access&price=Rs%20999">Rs 999</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-advanced-excel.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Tally Prime.jpg" alt="Tally Prime course logo">
+              <div>
+                <p class="course-label">Course 3</p>
+                <h3>Tally Prime + GST</h3>
+                <p class="course-subtitle">Learning on licensed software</p>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=Tally%20Prime%20%2B%20GST&price=Rs%201999">Rs 1999</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-tally-prime-gst.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Tally ERP.jpg" alt="Tally ERP logo">
+              <div>
+                <p class="course-label">Course 4</p>
+                <h3>Tally ERP</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=Tally%20ERP&price=Rs%201499">Rs 1499</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-tally-erp.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Power BI.jpg" alt="Power BI course logo">
+              <div>
+                <p class="course-label">Course 5</p>
+                <h3>Power BI A to Z</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=Power%20BI%20A%20to%20Z&price=Rs%201999">Rs 1999</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-power-bi.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/SAP-FICO.jpg" alt="SAP FICO course logo">
+              <div>
+                <p class="course-label">Course 6</p>
+                <h3>SAP FICO</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=SAP%20FICO&price=Rs%20999">Rs 999</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-sap-fico.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/SAP S4 HANA.jpg" alt="SAP S4 HANA course logo">
+              <div>
+                <p class="course-label">Course 7</p>
+                <h3>SAP S4 HANA</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=SAP%20S4%20HANA&price=Rs%20999">Rs 999</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-sap-s4-hana.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Peachtree.jpg" alt="Microsoft Peachtree course logo">
+              <div>
+                <p class="course-label">Course 8</p>
+                <h3>Microsoft Peachtree</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="payment.html?course=Microsoft%20Peachtree&price=Rs%20999">Rs 999</a>
+              <a class="details-link" data-track-label="Course Details Button" href="course-microsoft-peachtree.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-head">
+            <div class="course-brand">
+              <img src="assets/Advance Excel.jpg" alt="Free templates logo">
+              <div>
+                <p class="course-label">Free Resource</p>
+                <h3 class="course-title-small">500+ Free Template Of Work For Excel/Ms-Word/Powerpoint</h3>
+              </div>
+            </div>
+            <div class="course-actions">
+              <a class="course-price" data-track-label="Course Price Button" href="https://drive.google.com/drive/folders/1z8Ek5r2NjayCiSSyRMV8xDT80uA0ODPu?usp=drive_link" target="_blank" rel="noopener noreferrer">Free</a>
+              <a class="details-link" data-track-label="Course Details Button" href="free-template.html">Details</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="footer-brand" href="index.html">Uncut_Lesson</a>
+        <p>Practical online learning for computer, accounting, and business software skills.</p>
+      </div>
+      <div class="footer-links">
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About Us</a>
+        <a href="support.html">Support</a>
+        <a href="https://wa.me/917439034248" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
